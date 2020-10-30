@@ -21,6 +21,21 @@ nav ul li{
     margin: 20px 15px;
 }
 
+nav li #btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #4c8bf5;
+    padding: 5px 8px;
+    margin-top: -5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+nav li button:hover{
+    box-shadow: 1px 1px #e4e4e4;
+}
+
 nav a {
     text-decoration: none;
     color: black;
@@ -48,6 +63,7 @@ main #search-form{
 }
 
 main #search-form #search-input{
+    outline: none;
     height: 44px;
     line-height: 22px;
     padding: 2px 20px;
