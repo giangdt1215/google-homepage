@@ -1,0 +1,157 @@
+* {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+}
+a{
+    text-decoration: none;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin: 20px 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 150px;
+}
+
+main img#logo{
+    display: block;
+    margin: 0 auto;
+}
+
+main #search-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main #search-form #search-input{
+    height: 44px;
+    line-height: 22px;
+    padding: 2px 20px;
+    display: block;
+    margin: 20px auto;
+    width: 482px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#search-form .div-btn{
+    margin: 15px auto;
+}
+
+.div-btn button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+}
+
+.div-btn button:hover{
+    color: black;
+    border: 1px solid #5F6368;
+}
+
+.div-language{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.div-language ul{
+    display: flex;
+}
+.div-language li{
+    margin: 0 10px;
+}
+
+.div-language li a{
+    text-decoration: none;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer .div-country{
+    line-height: 40px;
+    padding-left: 40px;
+    color: rgba(0, 0, 0, 0.54);
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer .div-links{
+    display: flex;
+    padding: 0 40px;
+    position: relative;
+}
+
+footer .div-links a{
+    color: rgba(0, 0, 0, 0.6);
+}
+footer .div-links a:hover{
+    text-decoration: underline;
+}
+
+footer .left-side, footer .right-side{
+    display: flex;
+    line-height: 40px;
+}
+footer .right-side{
+    position: absolute;
+    right: 40px;
+}
+
+.left-side li{
+    margin-right: 30px;
+}
+.right-side li{
+    margin-left: 30px;
+}
+
+@media (max-width: 810px){
+    footer .div-country{
+        text-align: center;
+    }
+    footer .div-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .right-side{
+        display: flex;
+        position: relative;
+    }
+}

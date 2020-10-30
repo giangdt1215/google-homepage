@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Homepage</title>
+    <link rel="stylesheet" href="css/reset.css" >
+    
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="https://mail.google.com" target="_blank">Gmail</a></li>
+            <li><a href="https://www.google.com.vn/imghp?hl=en&tab=wi&ogbl" target="_blank">Images</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="images/googlelogo.png" alt="google logo" id="logo">
+        <form action="" id="search-form">
+            <input type="text" name="search-input" id="search-input">
+            <div class="div-btn">
+                <button type="submit">Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+            <div class="div-language">
+                <span>Google offered in:</span>
+                <ul>
+                    <li><a href="#">Tiếng Việt</a></li>
+                    <li><a href="#">Français</a></li>
+                    <li><a href="#">中文（繁體）</a></li>
+                </ul>
+            </div>
+        </form>
+    </main>
     
+    <footer>
+        <div class="div-country">
+            <p>Vietnam</p>
+        </div>
+        <div class="div-links">
+            <ul class="left-side">
+                <li><a href="https://www.google.com/intl/en_vn/ads/" target="_blank">Advertising</a></li>
+                <li><a href="https://www.google.com/intl/en_vn/ads/" target="_blank">Business</a></li>
+                <li><a href="https://about.google/?utm_source=google-VN&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">About</a></li>
+                <li><a href="https://google.com/search/howsearchworks/?fg=1" target="_blank">How Search works</a></li>
+            </ul>
+
+            <ul class="right-side">
+                <li><a href="https://policies.google.com/privacy?hl=en-VN&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-VN&fg=1">Terms</a></li>
+                <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
